@@ -14,7 +14,7 @@ The originated data sets contains the senor readings of a group of 30 volunteers
 
 # Selection of Variable
 
-The original data sets contains 561 variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  Based on the project requirement, only 66 variables are selected.  They are the measurements on the mean and standard deviation for each measurement.  
+The original data set contains 561 variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  Based on the project requirement, only 66 variables are selected.  They are the measurements on the mean and standard deviation for each measurement.  
 
 Apart from the 66 sersors related variables, there are 2 additional variables, Subject and ActivityName, which refers to subject of study (1-30) and activity performed during the experiment.
 
@@ -41,17 +41,16 @@ Apart from the 66 sersors related variables, there are 2 additional variables, S
 > Summarize (avg) the data with the aggregate() function and group by subject and activity name.  Then write the result using write.table()
 
 # Value in the 'getdata-project-tidydata.txt'
-The sensor value in the 'getdata-project-tidydata.txt' data set are the average of each variable for each activity and each subject.
+The sensor value in the 'getdata-project-tidydata.txt' data set are the **average** of each variable for each activity and each subject.
 
 # Variable Description
 
-### Subject
-> refers to the subject being studied (1-30) in the experiments
+### Non Sensor Reading related
+- Subject: refers to the subject being studied (1-30) in the experiments
 
-### ActivityName
-> refers to 1 of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed during the experiments
+- ActivityName: refers to 1 of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed during the experiments
 
-### Sensor related
+### Sensor Reading related
 
 There are 66 sensors related variable, with 33 related to the mean of each measurement and another 33 related to the standard deviation of each measurement.
 
