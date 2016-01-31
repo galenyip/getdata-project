@@ -48,7 +48,7 @@ The sensor value in the 'getdata-project-tidydata.txt' data set are the **averag
 ### Non Sensor Reading related
 - Subject: refers to the subject being studied (1-30) in the experiments
 
-- ActivityName: refers to 1 of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed during the experiments
+- ActivityName: refers to one of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed during the experiments
 
 ### Sensor Reading related
 
