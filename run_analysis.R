@@ -107,12 +107,16 @@ step3_result <- step3_temp[,c(-1)]
 # Appropriately labels the data set with descriptive variable names.
 #
 # Solution: using the name in features.txt (already supplemented in Step 1) but 
-#           remove '()' from the string using the gsub() function
+#           remove '()' and '-' from the string using the gsub() function. Also
+#           Replace 'mean' with 'Mean' and 'std' with 'Std'.
 #
 # ------------------------------------------------------------------------------
 
 step4_temp <- step3_result
+colnames(step4_temp) <- gsub('-mean','-Mean',colnames(step4_temp), fixed = TRUE)
+colnames(step4_temp) <- gsub('-std','-Std',colnames(step4_temp), fixed = TRUE)
 colnames(step4_temp) <- gsub('()','',colnames(step4_temp), fixed = TRUE)
+colnames(step4_temp) <- gsub('-','',colnames(step4_temp), fixed = TRUE)
 
 step4_result <- step4_temp
 

@@ -1,6 +1,3 @@
----
-output: html_document
----
 # About this repo
 Link: https://github.com/galenyip/getdata-project
 
@@ -13,9 +10,9 @@ It consist of 4 files:
 - CodeBook.MD (describes the variables, the data, and any transformations or work that you performed to clean up the data)
 - getdata-project-tidydata.txt (the tidy data set with the average of each variable for each activity and each subject, which is the output of the R code)
 
-All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each part to briefly describe what is the objective and how to achieve that.
+All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each part to briefly describe what is the objective and how to achieve that.  The code is run in sequence to produce the output.
 
-Note: The run_analysis.R and other data files should be put in the same folder before running the code.  The name of the data files are listed below for reference:
+Note: The run_analysis.R and other data files should be put in the same folder when executing.  The name of the data files are listed below for reference:
 - activity_labels.txt
 - features.txt
 - subject_test.txt
@@ -44,8 +41,7 @@ Note: The run_analysis.R and other data files should be put in the same folder b
 
 ## Part 4: Appropriately labels the data set with descriptive variable names.
 
-> Solution: using the name in features.txt (already supplemented in Step 1) but 
-          remove '()' from the string using the gsub() function
+> Solution: using the name in features.txt (already supplemented in Step 1) but remove '()' and '-' from the string using the gsub() function. Also replace 'mean' with 'Mean' and 'std' with 'Std'.
 
 ## Part 5: From the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
