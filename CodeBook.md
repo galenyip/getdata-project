@@ -46,7 +46,8 @@ The sensor value in the 'getdata-project-tidydata.txt' data set are the average 
 # Variable Description
 
 ### Subject
-> refers to the subject of study (1-30) in the experiments
+> refers to the subject being studied (1-30) in the experiments
+
 ### ActivityName
 > refers to 1 of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed during the experiments
 
@@ -60,76 +61,78 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 
-### List of Sensor Variables
+### List of Variables
 > 
 - The prefix 't' in the below indicate the variable is time domain signal, while prefix 'f' indicate it is frequency domain signal.
 - The suffix 'MeanX', 'MeanY' or 'MeanZ' indicate the value is the Mean of 3-axial signals in the X, Y and Z directions.
 - The suffix 'StdX', 'StdY' or 'StdZ' indicate the value is the Standard Deviation of 3-axial signals in the X, Y and Z directions.
 > The suffix 'Mean' or 'Std' indicate the value is the Mean or Standard Deviation of the signals.
 
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
+- Subject
+- ActivityName
+- tBodyAccMeanX
+- tBodyAccMeanY
+- tBodyAccMeanZ
+- tBodyAccStdX
+- tBodyAccStdY
+- tBodyAccStdZ
+- tGravityAccMeanX
+- tGravityAccMeanY
+- tGravityAccMeanZ
+- tGravityAccStdX
+- tGravityAccStdY
+- tGravityAccStdZ
+- tBodyAccJerkMeanX
+- tBodyAccJerkMeanY
+- tBodyAccJerkMeanZ
+- tBodyAccJerkStdX
+- tBodyAccJerkStdY
+- tBodyAccJerkStdZ
+- tBodyGyroMeanX
+- tBodyGyroMeanY
+- tBodyGyroMeanZ
+- tBodyGyroStdX
+- tBodyGyroStdY
+- tBodyGyroStdZ
+- tBodyGyroJerkMeanX
+- tBodyGyroJerkMeanY
+- tBodyGyroJerkMeanZ
+- tBodyGyroJerkStdX
+- tBodyGyroJerkStdY
+- tBodyGyroJerkStdZ
+- tBodyAccMagMean
+- tBodyAccMagStd
+- tGravityAccMagMean
+- tGravityAccMagStd
+- tBodyAccJerkMagMean
+- tBodyAccJerkMagStd
+- tBodyGyroMagMean
+- tBodyGyroMagStd
+- tBodyGyroJerkMagMean
+- tBodyGyroJerkMagStd
+- fBodyAccMeanX
+- fBodyAccMeanY
+- fBodyAccMeanZ
+- fBodyAccStdX
+- fBodyAccStdY
+- fBodyAccStdZ
+- fBodyAccJerkMeanX
+- fBodyAccJerkMeanY
+- fBodyAccJerkMeanZ
+- fBodyAccJerkStdX
+- fBodyAccJerkStdY
+- fBodyAccJerkStdZ
+- fBodyGyroMeanX
+- fBodyGyroMeanY
+- fBodyGyroMeanZ
+- fBodyGyroStdX
+- fBodyGyroStdY
+- fBodyGyroStdZ
+- fBodyAccMagMean
+- fBodyAccMagStd
+- fBodyBodyAccJerkMagMean
+- fBodyBodyAccJerkMagStd
+- fBodyBodyGyroMagMean
+- fBodyBodyGyroMagStd
+- fBodyBodyGyroJerkMagMean
+- fBodyBodyGyroJerkMagStd
