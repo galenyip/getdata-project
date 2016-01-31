@@ -66,7 +66,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 - The prefix 't' in the below indicate the variable is time domain signal, while prefix 'f' indicate it is frequency domain signal.
 - The suffix 'MeanX', 'MeanY' or 'MeanZ' indicate the value is the Mean of 3-axial signals in the X, Y and Z directions.
 - The suffix 'StdX', 'StdY' or 'StdZ' indicate the value is the Standard Deviation of 3-axial signals in the X, Y and Z directions.
-> The suffix 'Mean' or 'Std' indicate the value is the Mean or Standard Deviation of the signals.
+- The suffix 'Mean' indicate the value is the Mean of the signals.
+- The suffix 'Std' indicate the value is the Standard Deviation of the signals.
 
 - Subject
 - ActivityName
