@@ -7,10 +7,11 @@ Link: https://github.com/galenyip/getdata-project
 # Background
 This repo is for the course project of Coursera Course "R Programing - Getting and Cleaning Data" provided by Johns Hopkins University.
 
-It consist of 3 files:
+It consist of 4 files:
 - README.MD (this file)
 - run_analysis.R (the script that used to genrate output for the project)
 - CodeBook.MD (describes the variables, the data, and any transformations or work that you performed to clean up the data)
+- getdata-project-tidydata.txt (the tidy data set with the average of each variable for each activity and each subject, which is the output of the R code)
 
 All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each part to briefly describe what is the objective and how to achieve that.
 
@@ -49,4 +50,4 @@ Note: The run_analysis.R and other data files should be put in the same folder b
 ## Part 5: From the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 > Solution: Summarize (avg) the data with the aggregate() function and group by 
-          subject and activity name
+          subject and activity name.  Then write the result using write.table()
