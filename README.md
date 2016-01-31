@@ -22,28 +22,28 @@ Note: The run_analysis.R and other data files should be put in the same folder w
 - X_train.txt
 - y_train.txt
 
-## Part 1: Merges the training and the test sets to create one data set. 
+### Part 1: Merges the training and the test sets to create one data set. 
 
 > Solution: the test and train data were merge using rbind().  Then combining 
           subject, y (activity) and x (sensor values) into a single Data Set 
           with cbind(). 
 
-## Part 2: Extracts only the measurements on the mean and standard deviation for each measurement.  
+### Part 2: Extracts only the measurements on the mean and standard deviation for each measurement.  
 
 > Solution: using the grepl() function to get all the column name with pattern 
           mean() and std(). And treat it as filter to obtain the data with 
           desired column only.
 
-## Part 3: Uses descriptive activity names to name the activities in the data set 
+### Part 3: Uses descriptive activity names to name the activities in the data set 
 
 > Solution: To replace the 1-6 activity code with activity name provided in
           activity_labels.txt
 
-## Part 4: Appropriately labels the data set with descriptive variable names.
+### Part 4: Appropriately labels the data set with descriptive variable names.
 
 > Solution: using the name in features.txt (already supplemented in Step 1) but remove '()' and '-' from the string using the gsub() function. Also replace 'mean' with 'Mean' and 'std' with 'Std'.
 
-## Part 5: From the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### Part 5: From the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 > Solution: Summarize (avg) the data with the aggregate() function and group by 
           subject and activity name.  Then write the result using write.table()
