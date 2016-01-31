@@ -14,6 +14,16 @@ It consist of 3 files:
 
 All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each park to briefly describe what is the objective and how to achieve that.
 
+Note: The run_analysis.R and other data files should be put in the same folder before running the code.  The name of the data files are listed below for reference:
+- activity_labels.txt
+- features.txt
+- subject_test.txt
+- X_test.txt
+- y_test.txt
+- subject_train.txt
+- X_train.txt
+- y_train.txt
+
 ## Part 1: Merges the training and the test sets to create one data set. 
 
 > Solution: the test and train data were merge using rbind().  Then combining 

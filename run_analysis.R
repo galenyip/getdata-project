@@ -5,6 +5,10 @@ rm(list=ls())
 #
 # Merges the training and the test sets to create one data set. 
 #
+# Solution: the test and train data were merge using rbind().  Then combining 
+#           subject, y (activity) and x (sensor values) into a single Data Set 
+#           with cbind(). 
+#
 # ------------------------------------------------------------------------------
 
 # Read in Data from Files
@@ -51,6 +55,10 @@ rm(list=ls())
 #
 # Extracts only the measurements on the mean and standard deviation for each 
 # measurement.  
+#	
+# Solution: using the grepl() function to get all the column name with pattern 
+#           mean() and std(). And treat it as filter to obtain the data with 
+#           desired column only.
 #
 # ------------------------------------------------------------------------------
 
