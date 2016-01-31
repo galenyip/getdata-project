@@ -12,6 +12,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The originated data sets contains the senor readings of a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
+# Data files
+The run_analysis.R and other data files should be put in the same folder when executing.  The name of the data files are listed below for reference:
+- activity_labels.txt
+- features.txt
+- subject_test.txt
+- X_test.txt
+- y_test.txt
+- subject_train.txt
+- X_train.txt
+- y_train.txt
+
 # Selection of Variable
 
 The original data set contains 561 variables come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.  Based on the project requirement, only 66 variables are selected.  They are the measurements on the mean and standard deviation for each measurement.  
