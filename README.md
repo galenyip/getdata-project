@@ -12,7 +12,7 @@ It consist of 3 files:
 - run_analysis.R (the script that used to genrate output for the project)
 - CodeBook.MD (describes the variables, the data, and any transformations or work that you performed to clean up the data)
 
-All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each park to briefly describe what is the objective and how to achieve that.
+All the R code to process the data is in run_analysis.R .  The file basically having 5 parts, which addressing the 5 requirements of the project.  It is with comment at the beginning of each part to briefly describe what is the objective and how to achieve that.
 
 Note: The run_analysis.R and other data files should be put in the same folder before running the code.  The name of the data files are listed below for reference:
 - activity_labels.txt
