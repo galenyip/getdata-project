@@ -40,7 +40,7 @@ Apart from the 66 sersors related variables, there are 2 additional variables, S
 
 > Summarize (avg) the data with the aggregate() function and group by subject and activity name.  Then write the result using write.table()
 
-# Value in the 'getdata-project-tidydata.txt' (Summaries)
+# Value in the Tidy Data Output 'getdata-project-tidydata.txt' (Summaries)
 The sensor value in the 'getdata-project-tidydata.txt' data set are the **average** of each variable for each activity and each subject.
 
 # Variable Description
